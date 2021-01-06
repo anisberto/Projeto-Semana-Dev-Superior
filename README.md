@@ -3,10 +3,10 @@
 PROJETO SEMANA DEV SUPERIOR
 </h1>
     <h2 align="center">
-    SYSTEMA DELIVER
+    SEMANA DEVSUPERIOR
     </h2>
 <h4 align="center">
-Sistema de Gestão de Solicitações e Entregas de Alimentos
+Aplicativo de Registro e Entrega de Pedidos, com Localização e Mapas.
 </h4>
 
 <p align="center">
