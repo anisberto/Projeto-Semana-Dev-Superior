@@ -13,11 +13,10 @@ Sistema de Gestão de Solicitações e Entregas de Alimentos
   <a href="https://github.com/anisberto">
     <img alt="Anisberto Reis" src="https://img.shields.io/badge/Anisberto Reis-DEV-blue">
   </a>
-</p>
-  <a href="https://devsuperior.com.br/">
+    <a href="https://devsuperior.com.br/">
     <img alt="SDS" src="https://img.shields.io/badge/SDS-DEV--SUPERIOR-PORPLE">
   </a>
-
+</p>
 <br>
 
 ## 📚 O QUE SERA VISTO NESSA EDIÇÃO DA SDS?
