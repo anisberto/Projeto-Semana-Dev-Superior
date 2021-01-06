@@ -11,7 +11,7 @@ Sistema de Gestão de Solicitações e Entregas de Alimentos
 
 <p align="center">
   <a href="https://github.com/anisberto">
-    <img alt="Anisberto Reis" src="https://img.shields.io/badge/Anisberto Reis-P.I-blue">
+    <img alt="Anisberto Reis" src="https://img.shields.io/badge/Anisberto Reis-DEV-blue">
   </a>
 </p>
 <br>
@@ -26,8 +26,8 @@ com ReactJS para web, e React Native para mobile.
 
 ## O QUE É A SEMANA DEVSUPERIOR? 🤨
 A SDS é um evento online e gratuito que tem um objetivo muito claro:
-1) Que você inclua no seu portfólio um aplicativo inédito e exclusivo (web e mobile).
-2) Que você passe por todo processo desde a concepção, codificação, e publicação na nuvem. 
+Que você inclua no seu portfólio um aplicativo inédito e exclusivo (web e mobile).
+Que você passe por todo processo desde a concepção, codificação, e publicação na nuvem. 
 Quem concluir o projeto também ganha um certificado de 12h, que você pode incluir no seu currículo, além de te ajudar nas horas complementares da faculdade.
 É o momento ideal para estudantes e profissionais de programação consolidarem fundamentos importantes, e transformar esses fundamentos em aplicativos reais para compor seu portfólio e fazer a diferença em entrevistas.
 O evento é organizado pela DevSuperior, uma iniciativa que tem como objetivo ajudar estudantes e profissionais de programação a ingressar ou se recolocar na carreira.
