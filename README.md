@@ -14,11 +14,9 @@ Sistema de Gestão de Solicitações e Entregas de Alimentos
     <img alt="Anisberto Reis" src="https://img.shields.io/badge/Anisberto Reis-DEV-blue">
   </a>
 </p>
-<p align="center">
   <a href="https://devsuperior.com.br/">
     <img alt="SDS" src="https://img.shields.io/badge/SDS-DEV--SUPERIOR-PORPLE">
   </a>
-</p>
 
 <br>
 
