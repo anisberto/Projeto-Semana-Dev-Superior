@@ -32,4 +32,14 @@ public class OrderController {
                 .buildAndExpand(order.getId()).toUri();
         return ResponseEntity.created(uri).body(order);
     }
+
+    @PutMapping("/{id}/delivered")
+    public ResponseEntity<OrderDTO> put(@PathVariable Long id){
+        return ResponseEntity.ok().body(orderService.setDelivered(id));
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<OrderDTO> findById(@PathVariable Long id){
+        return ResponseEntity.ok().body(orderService.findById(id));
+    }
 }

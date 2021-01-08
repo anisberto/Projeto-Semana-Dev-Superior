@@ -23,18 +23,31 @@ public class OrderService {
     private ProductRepository productRepository;
 
     @Transactional(readOnly = true)
-    public List<OrderDTO> findAll(){
+    public List<OrderDTO> findAll() {
         List<Order> list = orderRepository.findOrderWithProducts();
         return list.stream().map(orderIntListDTO -> new OrderDTO(orderIntListDTO)).collect(Collectors.toList());
     }
 
+    @Transactional(readOnly = true)
+    public OrderDTO findById(Long id) {
+        return new OrderDTO(orderRepository.getOne(id));
+    }
+
     @Transactional
-    public OrderDTO insert(OrderDTO dto){
-        Order order = new Order(null,dto.getAddress(),dto.getLatitude(),dto.getLongitude(), Instant.now(),
+    public OrderDTO insert(OrderDTO dto) {
+        Order order = new Order(null, dto.getAddress(), dto.getLatitude(), dto.getLongitude(), Instant.now(),
                 OrderStatus.PENDING);
-        for(ProductDTO productIn : dto.getProducts()){
+        for (ProductDTO productIn : dto.getProducts()) {
             order.getProducts().add(productRepository.getOne(productIn.getId()));
         }
+        order = orderRepository.save(order);
+        return new OrderDTO(order);
+    }
+
+    @Transactional
+    public OrderDTO setDelivered(Long id) {
+        Order order = orderRepository.getOne(id);
+        order.setStatus(OrderStatus.DELIVERED);
         order = orderRepository.save(order);
         return new OrderDTO(order);
     }
