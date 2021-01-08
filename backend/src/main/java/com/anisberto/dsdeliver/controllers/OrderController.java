@@ -40,6 +40,6 @@ public class OrderController {
 
     @GetMapping("/{id}")
     public ResponseEntity<OrderDTO> findById(@PathVariable Long id){
-        return ResponseEntity.ok().body(orderService.findById(id));
+        return ResponseEntity.ok().body(orderService.findById(id)) ;
     }
 }

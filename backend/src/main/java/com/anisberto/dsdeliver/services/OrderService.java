@@ -30,7 +30,7 @@ public class OrderService {
 
     @Transactional(readOnly = true)
     public OrderDTO findById(Long id) {
-        return new OrderDTO(orderRepository.getOne(id));
+        return new OrderDTO(orderRepository.getOne(id)) ;
     }
 
     @Transactional
