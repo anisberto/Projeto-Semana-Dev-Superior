@@ -27,7 +27,7 @@ de modo que outras pessoas possam acessar e reconhecer seu trabalho.
 As tecnologias empregadas serão as mais demandadas do mercado atualmente: Java com Spring Boot no back end, e JavaScript/TypeScript no front end,
 com ReactJS para web, e React Native para mobile.
 
-##🤨 O QUE É A SEMANA DEVSUPERIOR? 
+## 🤨 O QUE É A SEMANA DEVSUPERIOR? 
 A SDS é um evento online e gratuito que tem um objetivo muito claro:
 Que você inclua no seu portfólio um aplicativo inédito e exclusivo (web e mobile).
 Que você passe por todo processo desde a concepção, codificação, e publicação na nuvem. 
