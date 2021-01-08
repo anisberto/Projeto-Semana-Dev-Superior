@@ -36,7 +36,7 @@ Quem concluir o projeto também ganha um certificado de 12h, que você pode incl
 O evento é organizado pela DevSuperior, uma iniciativa que tem como objetivo ajudar estudantes e profissionais de programação a ingressar ou se recolocar na carreira.
 
 
-Projeto Front-end  [Criado com](https://github.com/facebook/create-react-app).
+Projeto Front-end  [Criado com - REACT APP](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
