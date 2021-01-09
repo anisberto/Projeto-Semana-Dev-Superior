@@ -8,13 +8,13 @@ function Footer() {
         <footer className="main-footer">
             <h3>App desenvolvido durante a 2ª ed. do evento Semana DevSuperior</h3>
             <div className="footer-icons">
-                <a href="http://youbybe.com/c/devsuperior">
+                <a href="https://www.youtube.com/c/devsuperior" target="blanck">
                     <YouTube />
                 </a>
-                <a href="http://linkedin.com/anisberto">
+                <a href="https://www.linkedin.com/in/anisberto/" target="blanck">
                     <Linkedin />
                 </a>
-                <a href="http://instagran.com/anisberto">
+                <a href="https://www.instagram.com/anisberto_reis/" target="blanck">
                     <Instagram />
                 </a>
             </div>

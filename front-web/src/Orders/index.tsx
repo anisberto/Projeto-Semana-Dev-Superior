@@ -1,9 +1,10 @@
+import StepsHeader from './StepsHeader';
 import './style.css';
 
 function Orders() {
     return (
-        <div>
-            
+        <div className="orders-container">
+            <StepsHeader />
         </div>
     )
 }
