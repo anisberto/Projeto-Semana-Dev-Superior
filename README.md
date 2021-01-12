@@ -8,7 +8,7 @@ PROJETO SEMANA DEV SUPERIOR
 <h4 align="center">
 Aplicativo de Registro e Entrega de Pedidos, com Localização e Mapas.
 </h4>
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1b21d097-14ae-48d4-b68a-29cf3690b602/deploy-status)](https://app.netlify.com/sites/sds2-anisberto/deploys)
 <p align="center">
   <a href="https://github.com/anisberto">
     <img alt="Anisberto Reis" src="https://img.shields.io/badge/Anisberto Reis-DEV-blue">
@@ -16,7 +16,6 @@ Aplicativo de Registro e Entrega de Pedidos, com Localização e Mapas.
     <a href="https://devsuperior.com.br/">
     <img alt="SDS" src="https://img.shields.io/badge/SDS-DEV--SUPERIOR-PORPLE">
   </a>
-        [![Netlify Status](https://api.netlify.com/api/v1/badges/1b21d097-14ae-48d4-b68a-29cf3690b602/deploy-status)](https://app.netlify.com/sites/sds2-anisberto/deploys)
 </p>
 <br>
 
