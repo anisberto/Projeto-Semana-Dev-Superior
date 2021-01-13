@@ -8,7 +8,6 @@ PROJETO SEMANA DEV SUPERIOR
 <h4 align="center">
 Aplicativo de Registro e Entrega de Pedidos, com Localização e Mapas.
 </h4>
-
 <p align="center">
   <a href="https://github.com/anisberto">
     <img alt="Anisberto Reis" src="https://img.shields.io/badge/Anisberto Reis-DEV-blue">
