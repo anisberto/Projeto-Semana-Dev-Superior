@@ -18,7 +18,7 @@ public class Order implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private  String address;
+    private String address;
     private double latitude;
     private double longitude;
     private Instant moment;
@@ -92,6 +92,14 @@ public class Order implements Serializable {
 
     public Set<Product> getProducts() {
         return products;
+    }
+
+    public Double getTotal() {
+        double sum = 0;
+        for (Product produ : products) {
+            sum += produ.getPrice();
+        }
+        return sum;
     }
 
     @Override
